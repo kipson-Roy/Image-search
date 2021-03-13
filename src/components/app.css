@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto-Medium,Roboto,arial,sans-serif;
+}
+.img-responsive {
+    display: grid;
+    width: 305px;
+    height: 166px;
+    object-fit: cover;
+    object-position: center center;
+    margin: 0.5em;
+    cursor: pointer;
+   }
+.grid-box {
+    float: left;
+    display: grid;
+    grid-gap: 1em;
+}
+.img-responsive {
+    transition: all 1s;
+}
+.warapper .grid-box:hover img {
+    transform: scale(1.5);
+}
+.top {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.top input {
+    border-radius: 20px 20px;
+    width: 600px;
+
+}
+label {
+    font:bold;
+    font-size: larger;
+}
